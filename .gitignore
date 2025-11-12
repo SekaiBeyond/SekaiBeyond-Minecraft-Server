@@ -26,3 +26,11 @@ replay_pid*
 # Eclipse specific files
 /ssl/*.cert
 /ssl/*.key
+
+# Velocity specific files
+/velocity/lang
+/velocity/logs
+/velocity/vel/plugins/luckperms
+velocity/forwarding.secret
+/velocity/vel/plugins/minimotd-velocity/extra-configs
+/velocity/plugins/minimotd-velocity
