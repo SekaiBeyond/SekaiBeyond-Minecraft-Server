@@ -1,13 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "ggg",
+        "#g#",
         "g/g",
-        "ggg"
+        "#g#"
     ],
     "key": {
-        "g": { "item": "minecraft:gold_ingot" },
-        "/": { "item": "minecraft:stick" }
+        "#": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
     },
     "result": {
         "item": "minecraft:blaze_rod"
