@@ -1,0 +1,43 @@
+title: '&8&l☰ &dSekai &7Menu &8&l☰'
+rows: 1
+# sound: ITEM_ARMOR_EQUIP_GENERIC
+# update-interval: 100
+
+menu:
+  0:
+    material: CAMPFIRE
+    title: '&6&lSpawn Point'
+    lore:
+      - '&7Return to the spawn of the world.'
+      - '&8Click to teleport to &fSpawn&8.'
+    actions:
+      - 'playercommand:spawn'
+      - 'close'
+
+  2:
+    material: GRASS_BLOCK
+    title: '&a&lSMP &7(Survival)'
+    lore:
+      - '&7Explore, build, and thrive.'
+      - '&8A peaceful survival world.'
+      - ''
+      - '&eClick to enter &aSMP!'
+    actions:
+      - 'server:survival'
+      - 'close'
+
+  4:
+    material: IRON_PICKAXE
+    title: '&b&lCreative &7(Build Mode)'
+    lore:
+      - '&7Unleash your imagination!'
+      - '&8Unlimited resources and flight.'
+      - ''
+      - '&bClick to enter &3Creative!'
+    actions:
+      - 'server:creative'
+      - 'close'
+
+  fill:
+    material: GRAY_STAINED_GLASS_PANE
+    title: ' '
