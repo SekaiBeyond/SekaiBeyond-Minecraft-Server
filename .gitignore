@@ -56,3 +56,7 @@ replay_pid*
 
 # LuckPerms specific files
 */plugins/LuckPerms
+
+# BlockLocker specific files
+survival/plugins/BlockLocker/translations-en.yml
+survival/plugins/BlockLocker/config.yml

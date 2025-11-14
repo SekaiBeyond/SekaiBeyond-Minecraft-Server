@@ -1,7 +1,7 @@
 # Port to run the ServerSelectorX API on.
 # ServerSelectorX-Connector connects to this port to send server information.
 # https://github.com/ServerSelectorX/ServerSelectorX/wiki/Installing-SSX-Connector
-port: 9784
+port: 9783
 
 # If you are using shared hosting, you may need to set this to "0.0.0.0"
 # Using shared hosting is not recommended since it is usually not secure!

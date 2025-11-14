@@ -1,0 +1,73 @@
+title: '&8&l☰ &dSekai &7Menu &8&l☰'
+rows: 1
+
+# sound: ITEM_ARMOR_EQUIP_GENERIC
+
+# How often the menu should be refreshed.
+# Settings this too low can have a performance impact.
+# update-interval: 100
+
+menu:
+  0:
+    material: BAMBOO_DOOR
+    title: '&a&lHome'
+    lore:
+      - '&7Teleport to your personal sanctuary.'
+      - '&8Click to return to &fHome&8.'
+    actions:
+      - 'playercommand:home'
+      - 'close'
+
+  2:
+    material: CAMPFIRE
+    title: '&6&lBack'
+    lore:
+      - '&7Retrace your last steps through the world.'
+      - '&8Returns you to your previous location.'
+      - ''
+      - '&eClick to go &fBack!'
+    actions:
+      - 'playercommand:back'
+      - 'close'
+
+  4:
+    material: RED_BED
+    title: '&c&lSet Home'
+    lore:
+      - '&7Mark this place as your home.'
+      - '&8You will return here using &f/home&8.'
+      - ''
+      - '&cClick to set your &fHome!'
+    actions:
+      - 'playercommand:sethome'
+      - 'close'
+  
+  # Simple server item
+  6:
+    material: NETHER_STAR
+    title: '&b&lLobby &7(Hub)'
+    lore:
+      - '&7Return to the central nexus of worlds.'
+      - '&8The gateway to all adventures.'
+      - ''
+      - '&bClick to travel to &fLobby!'
+    actions:
+      - 'server:lobby'
+      - 'close'
+
+  # Simple server item
+  8:
+    material: IRON_PICKAXE
+    title: '&b&lCreative &7(Build Mode)'
+    lore:
+      - '&7Unleash your imagination!'
+      - '&8Unlimited resources and flight.'
+      - ''
+      - '&bClick to enter &3Creative!'
+    actions:
+      - 'server:creative'
+      - 'close'
+
+  fill:
+    material: GRAY_STAINED_GLASS_PANE
+    title: ' '
