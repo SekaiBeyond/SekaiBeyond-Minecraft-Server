@@ -1,0 +1,24 @@
+# Default server selector hotbar item. Create more hotbar items by copying this file in
+# the same directory and giving it a different name.
+
+item:
+  material: COMPASS
+  title: '&c&lS&e&le&a&lk&b&la&d&li &5&lB&6&le&2&ly&9&lo&d&ln &f&lMenu'
+  lore:
+    - '&8A mysterious compass pointing beyond this world...'
+    - '&7Right-click to open the gateway to other realms.'
+  actions:
+    - 'openmenu:serverselector' # Open the serverselector.yml menu
+
+# Give the server selector?
+give:
+  # Set a specific slot, or set to -1 to add the item in the first available free slot
+  inv-slot: -1
+
+  # If set to true, require permission ssx.item.<name> to receive the item.
+  permission: false
+
+# Uncomment to define a world whitelist. Players who are not in one of the worlds defined
+# below will not receive the item on join and will not be able to use the item.
+#worlds:
+# - hub

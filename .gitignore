@@ -31,24 +31,28 @@ replay_pid*
 /velocity/lang
 /velocity/logs
 /velocity/vel/plugins/luckperms
-velocity/forwarding.secret
+/velocity/forwarding.secret
 /velocity/vel/plugins/minimotd-velocity/extra-configs
 /velocity/plugins/minimotd-velocity
-/lobby/plugins/Essentials/userdata
-/lobby/plugins/LuckPerms/translations
-lobby/plugins/Essentials/kits.yml
-lobby/plugins/Essentials/items.json
-lobby/plugins/Essentials/custom_items.yml
-lobby/plugins/Essentials/motd.txt
-lobby/plugins/Essentials/tpr.yml
-lobby/plugins/Essentials/upgrades-done.yml
-lobby/plugins/Essentials/usermap.bin
-lobby/plugins/Essentials/uuids.bin
-lobby/plugins/Essentials/worth.yml
-lobby/plugins/LuckPerms
-lobby/plugins/ServerSelectorX/command/servers.yml
-lobby/plugins/ServerSelectorX/config/api.yml
-lobby/plugins/ServerSelectorX/config/inventory.yml
-lobby/plugins/ServerSelectorX/config/join.yml
-lobby/plugins/ServerSelectorX/config/misc.yml
-lobby/plugins/ServerSelectorX/config/sync.yml
+
+# ServerSelectorX specific files
+*/plugins/ServerSelectorX/command/servers.yml
+*/plugins/ServerSelectorX/config/inventory.yml
+*/plugins/ServerSelectorX/config/join.yml
+*/plugins/ServerSelectorX/config/misc.yml
+*/plugins/ServerSelectorX/config/sync.yml
+
+# Essentials specific files
+*/plugins/Essentials/userdata
+*/plugins/Essentials/kits.yml
+*/plugins/Essentials/items.json
+*/plugins/Essentials/custom_items.yml
+*/plugins/Essentials/motd.txt
+*/plugins/Essentials/tpr.yml
+*/plugins/Essentials/upgrades-done.yml
+*/plugins/Essentials/usermap.bin
+*/plugins/Essentials/uuids.bin
+*/plugins/Essentials/worth.yml
+
+# LuckPerms specific files
+*/plugins/LuckPerms
