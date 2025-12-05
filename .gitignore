@@ -60,3 +60,5 @@ replay_pid*
 # BlockLocker specific files
 survival/plugins/BlockLocker/translations-en.yml
 survival/plugins/BlockLocker/config.yml
+.env
+/.claude

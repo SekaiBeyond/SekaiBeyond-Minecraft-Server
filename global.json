@@ -1,0 +1,18 @@
+{
+    "creative":{
+        "id": "df74f505d5464066ac70093ca4c35233",
+        "startup_command": "java -Xmx8G -jar arclight.jar nogui"
+    },
+    "survival":{
+        "id": "312b8b3cd5044a41bd2a82e1071d1db2",
+        "startup_command": "java -Xmx8G -jar arclight.jar nogui"
+    },
+    "lobby":{
+        "id": "5ac4796e5e0f4e90a5836aebf01a5a3e",
+        "startup_command": "java -Xmx4G -jar arclight.jar nogui"
+    },
+    "velocity":{
+        "id": "d1cc9dd0989e447bbe48bd83116f0ddb",
+        "startup_command": "java -Xms1G -Xmx1G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15 -jar velocity.jar"
+    }
+}
